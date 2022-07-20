@@ -1,3 +1,11 @@
-.lista-de-Aceites {
-color: chartreuse;
-}
+p,
+ul,
+ol {
+    font-size: 20px;
+} 
+
+ 
+    li {
+        font-size: 20px;
+        color: cornflowerblue;
+    }
