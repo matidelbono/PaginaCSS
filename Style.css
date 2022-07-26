@@ -1,20 +1,16 @@
-p,
-ul,
-ol {
-    font-size: 20px;
-} 
+  
 
- 
-    li {
-        font-size: 20px;
-        color: cornflowerblue;
-    }
-     
-        h2  {
-            font-family: 'Ephesis', cursive;
-            font-size: 40px;
+        .imagen-de-aceitunas { 
+            width: 200px;
+            border-width: 5px;
+            border-color: blue;
+            border-style: solid dotted dashed;
         }  
+        .bordes-redondos { 
+            border-radius: 50%;
+        }
 
-        h3  {
-            font-family: 'Roboto', sans-serif;
-        } 
+        .contenedor-de-listas { 
+            background-color: chartreuse;
+        }
+        
