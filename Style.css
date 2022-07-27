@@ -1,16 +1,25 @@
   
 
-        .imagen-de-aceitunas { 
-            width: 200px;
-            border-width: 5px;
-            border-color: blue;
-            border-style: solid dotted dashed;
-        }  
-        .bordes-redondos { 
-            border-radius: 50%;
-        }
-
-        .contenedor-de-listas { 
-            background-color: chartreuse;
+        #titulo-pagina-negocio {
+            font-size: 30px;
+            color: orange;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
+        #imagen-aceite {
+            border-radius: 50%;
+            border-width: 5px;
+            border-style: solid;
+            border-color: gold;
+        }
+
+    #lista-tipos-aceites {
+        font-size: 15px;
+        color: cyan;
+
+    }
+   
+    #lista-tipos-aceitunas {
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
