@@ -45,8 +45,12 @@ body {
   background-color: silver;
 }
 .texto-azul {
-  color: blue;
+  color: blue ;
 }
-.texto-morado {
-  color: purple;
+#introduccion {
+  color: black  ;
 }
+
+/* La clase tiene prioridad sobre selector de tipo, selector mas generico */
+/*El Id es selector mas especifico que la clase, por lo que tiene prioridad sobre ella*/
+/* El estilo en linea es aun mas especifico que el Id, y tiene prioridad sobre el.
