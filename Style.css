@@ -1,7 +1,5 @@
       
-  img[alt] {
-    border-radius: 50%;
-  }
+
   
   input[type="radio"] {
     margin: 5px;
@@ -11,7 +9,6 @@
   }
   
   a[href="Aceitunas.html"] {
-    color: green;
     text-decoration: none;
     font-weight: bold;
   }
@@ -19,8 +16,8 @@
   #Contenedor-de-rectangulos {
     color: white;
     padding: 5px;
-    font-size: 10px;
     background-color: yellow;
+    font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .rectangulo {
@@ -44,13 +41,19 @@
 body {
   background-color: silver;
 }
-.texto-azul {
-  color: blue ;
+  
+h2 {
+  color: #eba234;
 }
-#introduccion {
-  color: black  ;
+img {
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #eb4034;
 }
-
+a {
+  color:goldenrod;
+}
 /* La clase tiene prioridad sobre selector de tipo, selector mas generico */
 /*El Id es selector mas especifico que la clase, por lo que tiene prioridad sobre ella*/
 /* El estilo en linea es aun mas especifico que el Id, y tiene prioridad sobre el.
