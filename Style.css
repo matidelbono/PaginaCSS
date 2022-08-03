@@ -1,8 +1,18 @@
+ 
+ 
+:root {
+  --pinguino-piel:gray;
+  --pinguino-barriga: pink;
+  --pinguino-pico:orange;
+  --pinguino-mejillas:pink;
+} 
+
+body {
+  background: var(--pinguino-barriga,#c6faf1);
+} 
+
  .pinguino {  
   --pinguino-barriga:white;
-  --pinguino-pico:orange;
-  --pinguino-piel:gray;
-  --pinguino-mejillas:pink;
   position: relative;
   margin: auto;
   display: block;
@@ -127,7 +137,7 @@
   top: 65%;
   left: 15%;
   background: pink;
-  background:var(--pinguino-mejillas, pink);
+  background:var();
   width: 15%;
   height: 10%;
   border-radius: 50%;
@@ -160,11 +170,10 @@
   height: 10%;
   border-radius: 50%;
 }
-body {
-  background: #c6faf1;
-}
+
 .pinguino * {
   position: absolute;
 }
 /* Variable: nombre que se asigna a un valor que puede ser utilizado a lo largo de un archivo */
-/* Una variable puede ser utilizada SOLO en las clases contenidas en la clase en la que dicha variable se creó
+/* Una variable puede ser utilizada SOLO en las clases contenidas en la clase en la que dicha variable se creó */
+/* La pseudoclase root hace que una variable se convierta en global, seleccionando el elemento <html> */
